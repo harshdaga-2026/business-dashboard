@@ -3,9 +3,9 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-url = "https://raw.githubusercontent.com/sanjayfuloria/business-dashboard/main/business_data.csv"
+url = "https://raw.githubusercontent.com/sanjayfuloria/business-dashboard/main/sales_data.csv"
 
-df = pd.read_csv(url)
+df = pd.read_csv("business_data.csv"))
 
 st.title("Business Performance Dashboard")
 
