@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 url = "https://raw.githubusercontent.com/sanjayfuloria/business-dashboard/main/sales_data.csv"
 
-df = pd.read_csv("business_data.csv"))
+df = pd.read_csv("business_data.csv")
 
 st.title("Business Performance Dashboard")
 
